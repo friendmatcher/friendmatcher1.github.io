@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link type="text/css"; rel="stylesheet"; href="Friend Matcher Register.css" />
+  <title>Register</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+  <!--test php code-->
+  <form action="test4.php" method="post">
+    Name: <input type="text" name="name"><br>
+    E-mail: <input type="text" name="email"><br>
+    <input type="submit">
+  </form>
+
+
+
+
+  <div class="container">
+    <div class="jumbotron"; style="background-color: #f2ccff">
+      <h1>Register</h1>
+    </div>
+    <form role="form" action="test1.php" method="post">
+      <div class="form-group">
+        <label for="usr">First Name:</label>
+        <input type="text" class="form-control" id="usr" name="firstname">
+      </div>
+
+      <div class="form-group">
+        <label for="usr">Last Name:</label>
+        <input type="text" class="form-control" id="usr" name="lastname">
+      </div>
+      <div class="form-group">
+        <label for="usr">Username:</label>
+        <input type="text" class="form-control" id="usr" name="username">
+      </div>
+      <div class="form-group">
+        <label for="usr">Password:</label>
+        <input type="text" class="form-control" id="usr" name="password">
+      </div>
+      <div class="form-group">
+        <label for="usr">Email:</label>
+        <input type="text" class="form-control" id="usr" name="email">
+      </div>
+    </form>
+    <a href="/Users/snehgirdhar/Documents/Sneh/Friend Matcher Project/Registration/Additional Information.html" class="btn btn-info" role="button">Make a Profile</a>
+
+    Welcome <?php echo $_POST['name']; ?><br>
+Your email address is: <?php echo $_POST['email']; ?>
+
+  </div>
+
+</body>
+</html>
+
