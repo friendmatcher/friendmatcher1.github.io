@@ -1,2 +1,2 @@
-# friendmatcher1.github.io
-Helps people make friends
+# sneh.github.io
+Personal website
